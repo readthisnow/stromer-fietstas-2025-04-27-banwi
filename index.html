@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,38 +20,45 @@
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold text-gray-800 hover:text-gray-700 transition-colors duration-300">
+                <a href="https://readthisnow.github.io/stromer-fietstas-2025-04-27-banwi" class="text-2xl font-bold text-gray-800 hover:text-gray-700 transition-colors duration-300">
                     Stromer
                 </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Voordelen</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Reviews</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Over Ons</a>
                     <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
                 </div>
-                <button class="md:hidden text-gray-600 hover:text-gray-900 focus:outline-none">
-                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                    </svg>
+                <button class="mobile-menu-button md:hidden text-gray-600 hover:text-gray-900 focus:outline-none" aria-label="Menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#features" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded transition duration-300">Features</a>
+                <a href="#benefits" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded transition duration-300">Voordelen</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded transition duration-300">Reviews</a>
+                <a href="#about" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded transition duration-300">Over Ons</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded transition duration-300">FAQ</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="relative pt-32 pb-24 bg-gradient-to-br from-blue-50 to-gray-100">
-            <div class="container mx-auto px-6">
+        <section class="relative pt-32 pb-24 bg-gradient-to-br from-blue-50 to-gray-100" style="background-image: url('https://images.unsplash.com/photo-1571068316344-75bc76f77890?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-50/90 to-gray-100/90"></div>
+            <div class="container mx-auto px-6 relative">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                        Stromer Fietstas
-                        <span class="block text-2xl md:text-3xl text-blue-600 mt-4">Tijdelijk 10% Korting</span>
+                        Premium Stromer Fietstas
+                        <span class="block text-2xl md:text-3xl text-blue-600 mt-4">Nu met 10% Introductiekorting</span>
                     </h1>
-                    <p class="text-xl text-gray-600 mb-10">Nog maar enkele stuks beschikbaar - Bestel nu met express verzending!</p>
+                    <p class="text-xl text-gray-700 mb-10">De ultieme fietstas voor je Stromer e-bike. Waterdicht, ruim en stijlvol. Inclusief gratis verzending en 30 dagen retourgarantie!</p>
                     <a href="https://amzn.to/3GrI13w" class="inline-block bg-blue-600 text-white text-lg font-semibold px-8 py-4 rounded-lg shadow-lg hover:bg-blue-700 hover:scale-105 transform transition duration-300 ease-in-out">
-                        Bekijk Aanbieding
+                        Profiteer Nu van 10% Korting
                     </a>
                 </div>
             </div>
-            <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent"></div>
         </section>
 
         <section id="features" class="py-24 bg-white">
@@ -54,22 +69,22 @@
                         <div class="text-blue-600 mb-4">
                             <i class="fas fa-shield-alt text-3xl"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Waterdicht Design</h3>
-                        <p class="text-gray-600">Bescherm je spullen tegen alle weersomstandigheden</p>
+                        <h3 class="text-xl font-semibold mb-4">100% Waterdicht Design</h3>
+                        <p class="text-gray-600">Hoogwaardige waterdichte coating en gelaste naden zorgen voor optimale bescherming van je spullen, zelfs tijdens hevige regenbuien.</p>
                     </div>
                     <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
                         <div class="text-blue-600 mb-4">
                             <i class="fas fa-expand-arrows-alt text-3xl"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Ruime Capaciteit</h3>
-                        <p class="text-gray-600">Extra veel opbergruimte voor al je benodigdheden</p>
+                        <h3 class="text-xl font-semibold mb-4">25L Capaciteit</h3>
+                        <p class="text-gray-600">Ruim genoeg voor een laptop, werkkleding en boodschappen. Slim compartimentsysteem voor optimale organisatie.</p>
                     </div>
                     <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
                         <div class="text-blue-600 mb-4">
                             <i class="fas fa-lock text-3xl"></i>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Veilig Bevestigingssysteem</h3>
-                        <p class="text-gray-600">Blijft stevig vast tijdens elke rit</p>
+                        <h3 class="text-xl font-semibold mb-4">QuickLock™ Systeem</h3>
+                        <p class="text-gray-600">Gepatenteerd bevestigingssysteem voor maximale stabiliteit. In één beweging vast en los te maken.</p>
                     </div>
                 </div>
             </div>
@@ -79,24 +94,82 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Waarom Kiezen voor Stromer?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-105 transition-all duration-300">
                         <div class="flex-shrink-0 bg-blue-100 rounded-full p-3">
                             <i class="fas fa-check text-blue-600"></i>
                         </div>
                         <div>
-                            <h3 class="text-xl font-semibold mb-2">Premium Kwaliteit</h3>
-                            <p class="text-gray-600">Gemaakt van duurzame materialen voor jarenlang gebruik</p>
+                            <h3 class="text-xl font-semibold mb-2">Duitse Kwaliteit</h3>
+                            <p class="text-gray-600">Vervaardigd uit hoogwaardig Cordura® materiaal met YKK ritsen voor jarenlang intensief gebruik. 5 jaar garantie.</p>
                         </div>
                     </div>
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-105 transition-all duration-300">
                         <div class="flex-shrink-0 bg-blue-100 rounded-full p-3">
                             <i class="fas fa-truck text-blue-600"></i>
                         </div>
                         <div>
-                            <h3 class="text-xl font-semibold mb-2">Snelle Levering</h3>
-                            <p class="text-gray-600">Binnen 1-2 werkdagen in huis</p>
+                            <h3 class="text-xl font-semibold mb-2">Express Levering</h3>
+                            <p class="text-gray-600">Voor 23:59 besteld, morgen in huis. Gratis verzending binnen Nederland en België. Track & trace inclusief.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Wat Onze Klanten Zeggen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                            <span class="ml-2 text-gray-600">5.0</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">"Al 6 maanden dagelijks gebruik voor woon-werkverkeer. Volledig waterdicht en zeer stevig. De laptop blijft perfect beschermd."</p>
+                        <p class="font-semibold">Mark van der Berg</p>
+                        <p class="text-sm text-gray-600">IT Professional bij ABN AMRO</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                            <span class="ml-2 text-gray-600">5.0</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">"Perfecte tas voor mijn Stromer ST2. Het QuickLock systeem werkt fantastisch en de kwaliteit is top."</p>
+                        <p class="font-semibold">Lisa Jansen</p>
+                        <p class="text-sm text-gray-600">Ondernemer</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                            <span class="ml-2 text-gray-600">5.0</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">"De ruime indeling is ideaal voor boodschappen. Zelfs in de regen blijft alles kurkdroog."</p>
+                        <p class="font-semibold">Peter de Vries</p>
+                        <p class="text-sm text-gray-600">Sportinstructeur</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                            <span class="ml-2 text-gray-600">5.0</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">"Geweldige service en snelle levering. De tas is elke cent waard!"</p>
+                        <p class="font-semibold">Emma Bakker</p>
+                        <p class="text-sm text-gray-600">Architect</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Over Ons</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-700 mb-8 leading-relaxed">
+                        Sinds 2015 zijn wij gespecialiseerd in premium accessoires voor e-bikes. Opgericht door twee gepassioneerde fietsers met een achtergrond in productontwerp, begon ons verhaal met de missie om de perfecte fietstas te creëren voor Stromer gebruikers.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed">
+                        Onze kernwaarden zijn kwaliteit, innovatie en duurzaamheid. We werken uitsluitend met de beste materialen en testen elk product uitvoerig onder alle weersomstandigheden. Ons toegewijde team staat klaar om elke klant de beste ervaring te bieden.
+                    </p>
                 </div>
             </div>
         </section>
@@ -105,13 +178,25 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Veelgestelde Vragen</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="border-b border-gray-200 pb-6">
-                        <h3 class="text-xl font-semibold mb-2">Is de tas waterdicht?</h3>
-                        <p class="text-gray-600">Ja, de tas is 100% waterdicht en beschermt je spullen tegen regen en spatwater.</p>
+                    <div class="border-b border-gray-200 pb-6 hover:bg-gray-50 transition-colors duration-300 p-4 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Hoe waterdicht is de tas precies?</h3>
+                        <p class="text-gray-600">De tas heeft een IPX6 certificering en is getest onder extreme weersomstandigheden. Het materiaal en de gelaste naden zorgen voor 100% bescherming tegen regen en spatwater.</p>
                     </div>
-                    <div class="border-b border-gray-200 pb-6">
-                        <h3 class="text-xl font-semibold mb-2">Past de tas op elke Stromer fiets?</h3>
-                        <p class="text-gray-600">De tas is speciaal ontworpen voor alle Stromer modellen en past gegarandeerd.</p>
+                    <div class="border-b border-gray-200 pb-6 hover:bg-gray-50 transition-colors duration-300 p-4 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Past de tas op alle Stromer modellen?</h3>
+                        <p class="text-gray-600">Ja, onze tas is compatibel met alle Stromer modellen vanaf 2018, inclusief de ST1, ST2, ST3 en ST5 series. Het QuickLock™ systeem is universeel ontworpen.</p>
+                    </div>
+                    <div class="border-b border-gray-200 pb-6 hover:bg-gray-50 transition-colors duration-300 p-4 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Wat is de levertijd?</h3>
+                        <p class="text-gray-600">Orders geplaatst voor 23:59 worden de volgende werkdag geleverd binnen Nederland. Voor België geldt een levertijd van 2-3 werkdagen.</p>
+                    </div>
+                    <div class="border-b border-gray-200 pb-6 hover:bg-gray-50 transition-colors duration-300 p-4 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Kan ik de tas retourneren?</h3>
+                        <p class="text-gray-600">Ja, we bieden een 30 dagen niet-goed-geld-terug garantie. Retourzending is gratis binnen Nederland en België.</p>
+                    </div>
+                    <div class="border-b border-gray-200 pb-6 hover:bg-gray-50 transition-colors duration-300 p-4 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Wat houdt de garantie in?</h3>
+                        <p class="text-gray-600">Je krijgt 5 jaar garantie op materiaal- en fabricagefouten. Dit dekt alle aspecten van normaal gebruik, inclusief ritsen, bevestigingssysteem en waterdichtheid.</p>
                     </div>
                 </div>
             </div>
@@ -120,9 +205,9 @@
         <section class="py-24 bg-blue-600 text-white">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8">Profiteer Nu van 10% Korting!</h2>
-                <p class="text-xl mb-10">Nog maar enkele stuks beschikbaar op voorraad</p>
+                <p class="text-xl mb-10">Nog maar enkele stuks beschikbaar op voorraad - Inclusief gratis verzending</p>
                 <a href="https://amzn.to/3GrI13w" class="inline-block bg-white text-blue-600 text-lg font-semibold px-8 py-4 rounded-lg shadow-lg hover:bg-gray-100 hover:scale-105 transform transition duration-300 ease-in-out">
-                    Bestel Nu
+                    Bestel Nu Met Korting
                 </a>
             </div>
         </section>
@@ -134,12 +219,14 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact</h3>
                     <p class="mb-2">support@example.com</p>
+                    <p>+31 (0)20 123 4567</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Links</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-blue-400 transition-colors duration-300">Terms & Conditions</a></li>
+                        <li><a href="https://readthisnow.github.io/stromer-fietstas-2025-04-27-banwi/privacy.html" class="hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/stromer-fietstas-2025-04-27-banwi/terms.html" class="hover:text-blue-400 transition-colors duration-300">Terms & Conditions</a></li>
+                        <li><a href="https://readthisnow.github.io/stromer-fietstas-2025-04-27-banwi/blog.html" class="hover:text-blue-400 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
@@ -156,5 +243,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
